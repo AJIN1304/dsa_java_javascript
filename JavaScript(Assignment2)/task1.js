@@ -1,12 +1,13 @@
 /*
+QUESTION
  Take a sentence as an input and reverse every word in that sentence. 
  Example - This is a sunny day > sihT si a ynnus yad. 
 */
 
 
-//  METHOD-1
+//  METHOD-1 (using built in method)
 /*
-(using built in method)
+
 const str = 'Hello World how is it outside';
 const reverseSentence = str => {
    const arr = str.split(" ");
